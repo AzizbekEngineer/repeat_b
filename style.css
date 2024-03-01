@@ -1,0 +1,29 @@
+.container {
+  background: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 50%;
+  height:50%;
+  transition: 1s;
+  background: blue;
+}
+
+.cards:hover .card {
+  transform: rotate(90deg);
+  background: red
+}
